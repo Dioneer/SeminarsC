@@ -78,7 +78,7 @@ namespace homeworkForSeminar1
 			//===============Exesise 4=========================================================
 			//===============Exesise 6=========================================================
 			// Console.Clear();
-			// Console.WriteLine("Hello! Let's find out iа your number is odd or even.");
+			// Console.WriteLine("Hello! Let's find out if your number is odd or even.");
 			// Console.Write("Please, enter your number (you can use integer or decimal with comma separate): ");
 			// string enterString = Console.ReadLine();
 
@@ -102,7 +102,31 @@ namespace homeworkForSeminar1
 
 			//===============Exesise 6=========================================================
 			//===============Exesise 8=========================================================
-
+			Console.Clear();
+			Console.WriteLine("Hello! Let's find out all the even numbers from entered to one.");
+			Console.Write("Please, enter your number above 0 (you can use only integer): ");
+			string enterString = Console.ReadLine();
+			if (uint.TryParse(enterString, out uint enterNumber))
+			{
+				enterNumber = uint.Parse(enterString);
+				short i = 0;
+				Console.WriteLine("All even numbers are:");
+				while (i <= enterNumber)
+				{
+					if (i % 2 == 0)
+					{
+						Console.Write($"{i}, ");
+					}
+					i++;
+				}
+			}
+			else
+			{
+				Console.WriteLine("Please, your number must be integer");
+			}
+			Console.WriteLine("");
+			Console.WriteLine("If you whant to continue press any key");
+			Console.ReadKey();
 			//===============Exesise 8=========================================================
 		}
 	}
