@@ -127,7 +127,7 @@ namespace homeworkForSeminar1
 			// Console.WriteLine("");
 			// Console.WriteLine("If you whant to continue press any key");
 			// Console.ReadKey();
-			//===============Exesise 8=========================================================
+			// //===============Exesise 8=========================================================
 		}
 	}
 }
