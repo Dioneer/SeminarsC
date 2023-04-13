@@ -16,6 +16,9 @@ namespace Homewor2
 			//======Запуск задачи 13 варинт2===================
 			// parseString();
 
+			// Задача 15: Напишите программу, которая принимает на вход цифру, обозначающую день недели, и проверяет, является ли этот день выходным.
+			//======Запуск задачи 15 ==========================
+			// requestNumber();
 		}
 		//======Задача 10 ==============================================================
 		// public static void requestNumber()
@@ -140,6 +143,70 @@ namespace Homewor2
 		// 	Console.WriteLine(showResult);
 		// }
 		//======Задача 13 вариант2======================================================
+		//======Задача 15 ==============================================================
+		// public static void requestNumber()
+		// {
+		// 	Console.Clear();
+		// 	Console.WriteLine("Hello! Please, enter a digit number from 1 to 7 and we will know is it a weekend or working day");
+		// 	string inputForCheck = Console.ReadLine();
+		// 	if (byte.TryParse(inputForCheck, out byte inputNumber))
+		// 	{
+		// 		byte checkNumber = Convert.ToByte(inputNumber);
+		// 		if (checkNumber <= 7 && checkNumber > 0)
+		// 		{
+		// 			weekendInfo(checkNumber);
+		// 		}
+		// 		else
+		// 		{
+		// 			string showResult = "Your number is bigger or smaller then 1-7";
+		// 			showNumber(showResult);
+		// 		}
+
+		// 	}
+		// 	else
+		// 	{
+		// 		string showResult = "Sorry, wrong type of input";
+		// 		showNumber(showResult);
+		// 	}
+		// }
+		// public static void weekendInfo(byte checkNumber)
+		// {
+		// 	string result;
+		// 	if (checkNumber == 6 || checkNumber == 7)
+		// 	{
+		// 		result = "Yes, it's weekend!";
+		// 	}
+		// 	else if (checkNumber == 5)
+		// 	{
+		// 		result = "No, it's only Friday!";
+
+		// 	}
+		// 	else if (checkNumber == 4)
+		// 	{
+		// 		result = "No, it's only Thursday!";
+
+		// 	}
+		// 	else if (checkNumber == 3)
+		// 	{
+		// 		result = "No, it's only Wednesday!";
+
+		// 	}
+		// 	else if (checkNumber == 2)
+		// 	{
+		// 		result = "No, it's only Tuesday!";
+
+		// 	}
+		// 	else
+		// 	{
+		// 		result = "No, it's only Monday!";
+		// 	}
+		// 	Console.WriteLine(result);
+		// }
+		// public static void showNumber(string showResult)
+		// {
+		// 	Console.WriteLine(showResult);
+		// }
+		//======Задача 15 ==============================================================
 	}
 }
 
