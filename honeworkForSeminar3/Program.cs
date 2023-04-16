@@ -16,6 +16,24 @@ namespace homeworkForSemainar3
 			// System.Console.WriteLine("Hello! Let's find out if a number is a palindrome or not. Please, enter a number");
 			// string inputNumber = Console.ReadLine();
 			// checkInput(inputNumber);
+
+			// Напишите программу, которая принимает на вход координаты двух точек и находит расстояние между ними в 3D пространстве.
+			//===Задача 21. Здесь запуск==================================================================================
+			// System.Console.WriteLine("Let's find out the distance between two points in 3D space.");
+			// System.Console.WriteLine("Please input first coord X1");
+			// double Ax = Convert.ToDouble(Console.ReadLine());
+			// System.Console.WriteLine("Please input first coord Y1");
+			// double Ay = Convert.ToDouble(Console.ReadLine());
+			// System.Console.WriteLine("Please input first coord Z1");
+			// double Az = Convert.ToDouble(Console.ReadLine());
+			// System.Console.WriteLine("Please input first coord X2");
+			// double Bx = Convert.ToDouble(Console.ReadLine());
+			// System.Console.WriteLine("Please input first coord Y2");
+			// double By = Convert.ToDouble(Console.ReadLine());
+			// System.Console.WriteLine("Please input first coord Z2");
+			// double Bz = Convert.ToDouble(Console.ReadLine());
+			// double result = findDist(Ax, Ay, Az, Bx, By, Bz);
+			// System.Console.WriteLine($"The distance is {result}");
 		}
 		//===Задача 19 решена двумя способами v1=========================================================================
 		// public static void checkInput(string receiveString)
@@ -79,5 +97,14 @@ namespace homeworkForSemainar3
 		// 	return false;
 		// }
 		//===Задача 19 решена двумя способами v2=========================================================================
+		//===Задача 21===================================================================================================
+		// public static double findDist(double Ax, double Ay, double Az, double Bx, double By, double Bz)
+		// {
+		// 	double dist = 0;
+		// 	double square = ((Ax - Bx) * (Ax - Bx)) + ((Ay - By) * (Ay - By)) + ((Az - Bz) * (Az - Bz));
+		// 	dist = Math.Sqrt(square);
+		// 	return dist;
+		// }
+		//===Задача 21===================================================================================================
 	}
 }
