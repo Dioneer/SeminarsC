@@ -37,9 +37,9 @@ namespace homeworkForSemainar3
 
 			// Напишите программу, которая принимает на вход число (N) и выдаёт таблицу кубов чисел от 1 до N.
 			//===Задача 23. Здесь запуск==================================================================================
-			System.Console.WriteLine("Let's find out a table of cubes from 1 till your number, please input integer: ");
-			double inputNumber = Convert.ToDouble(Console.ReadLine());
-			findCubic(inputNumber);
+			// System.Console.WriteLine("Let's find out a table of cubes from 1 till your number, please input integer: ");
+			// double inputNumber = Convert.ToDouble(Console.ReadLine());
+			// findCubic(inputNumber);
 		}
 		//===Задача 19 решена двумя способами v1=========================================================================
 		// public static void checkInput(string receiveString)
@@ -113,27 +113,27 @@ namespace homeworkForSemainar3
 		// }
 		//===Задача 21===================================================================================================
 		//===Задача 23===================================================================================================
-		public static void findCubic(double Cubic)
-		{
-			if (Cubic > 0)
-			{
-				for (byte i = 0; Cubic > 0; i++)
-				{
-					double result = Convert.ToDouble(Cubic * Cubic * Cubic);
-					System.Console.WriteLine($"Cubic of {Cubic} is {result}");
-					Cubic--;
-				}
-			}
-			else
-			{
-				for (double i = Cubic; Cubic < 0;)
-				{
-					double result = Convert.ToDouble(Cubic * Cubic * Cubic);
-					System.Console.WriteLine($"Cubic of {Cubic} is {result}");
-					Cubic++;
-				}
-			}
-		}
+		// public static void findCubic(double Cubic)
+		// {
+		// 	if (Cubic > 0)
+		// 	{
+		// 		for (byte i = 0; Cubic > 0; i++)
+		// 		{
+		// 			double result = Convert.ToDouble(Cubic * Cubic * Cubic);
+		// 			System.Console.WriteLine($"Cubic of {Cubic} is {result}");
+		// 			Cubic--;
+		// 		}
+		// 	}
+		// 	else
+		// 	{
+		// 		for (double i = Cubic; Cubic < 0;)
+		// 		{
+		// 			double result = Convert.ToDouble(Cubic * Cubic * Cubic);
+		// 			System.Console.WriteLine($"Cubic of {Cubic} is {result}");
+		// 			Cubic++;
+		// 		}
+		// 	}
+		// }
 		//===Задача 23===================================================================================================
 	}
 }
