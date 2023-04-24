@@ -29,11 +29,16 @@ namespace Homework5
 			//======= Сами функции в файле exe36.cs==================
 
 			// Задайте массив вещественных чисел. Найдите разницу между максимальным и минимальным элементов массива.
-			System.Console.WriteLine("let's find out the summ of the odd index numbers.");
-			System.Console.WriteLine("Please enter length of the array: ");
-			int length = Convert.ToInt32(Console.ReadLine());
-			MinMax sumMinMax = newMinMax();
-
+			//======= Сами функции в файле exe38.cs==================
+			// System.Console.WriteLine("let's find out difference between the maximum and minimum array elements.");
+			// System.Console.WriteLine("Please enter length of the array: ");
+			// int length = Convert.ToInt32(Console.ReadLine());
+			// MinMax sumMinMax = new MinMax();
+			// double[] randomArr = sumMinMax.randomArray(length);
+			// double[] mmArray = sumMinMax.minmax(randomArr);
+			// double result = sumMinMax.diff(mmArray);
+			// Console.WriteLine($"The difference between the maximum and minimum array elements. is: {result}");
+			//======= Сами функции в файле exe38.cs==================
 		}
 	}
 }
