@@ -16,6 +16,24 @@ namespace Homework5
 			// int result = counter.counter(randomArr);
 			// System.Console.WriteLine($"The number of even numbers is: {result}");
 			//======= Сами функции в файле exe34.cs==================
+
+			// Задайте одномерный массив, заполненный случайными числами. Найдите сумму элементов, стоящих на нечётных позициях.
+			//======= Сами функции в файле exe36.cs==================
+			// System.Console.WriteLine("let's find out the summ of the odd index numbers.");
+			// System.Console.WriteLine("Please enter length of the array: ");
+			// int length = Convert.ToInt32(Console.ReadLine());
+			// SummOdd summ = new SummOdd();
+			// int[] randomArr = summ.randomArray(length);
+			// int result = summ.summFunc(randomArr);
+			// Console.WriteLine($"The number of even numbers is: {result}");
+			//======= Сами функции в файле exe36.cs==================
+
+			// Задайте массив вещественных чисел. Найдите разницу между максимальным и минимальным элементов массива.
+			System.Console.WriteLine("let's find out the summ of the odd index numbers.");
+			System.Console.WriteLine("Please enter length of the array: ");
+			int length = Convert.ToInt32(Console.ReadLine());
+			MinMax sumMinMax = newMinMax();
+
 		}
 	}
 }
