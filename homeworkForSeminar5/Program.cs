@@ -39,6 +39,53 @@ namespace Homework5
 			// double result = sumMinMax.diff(mmArray);
 			// Console.WriteLine($"The difference between the maximum and minimum array elements. is: {result}");
 			//======= Сами функции в файле exe38.cs==================
+			//======= Это помощь, к делу не относится==================
+			// 	Console.Write("Input a quantity of elements: ");
+			// 	int size = Convert.ToInt32(Console.ReadLine());
+			// 	Console.Write("Input a minimum possible element: ");
+			// 	double min = Convert.ToDouble(Console.ReadLine());
+			// 	Console.Write("Input a maximum possible element: ");
+			// 	double max = Convert.ToDouble(Console.ReadLine());
+			// 	double[] array = CreateRandomArray(size, min, max);
+			// 	ShowArray(array);
+			// 	System.Console.WriteLine();
+			// 	double diff = Math.Round(GetDiffOfNumbers(array), 2);
+			// 	Console.WriteLine($"Difference between max and min is -> {diff} ");
+			// }
+			// public static double[] CreateRandomArray(int size, double minValue, double maxValue)
+			// {
+			// 	double[] array = new double[size];
+			// 	Random random = new Random();
+
+			// 	for (int i = 0; i < size; i++)
+			// 		array[i] = random.NextDouble() * (maxValue - minValue) + minValue;
+
+			// 	return array;
+			// }
+
+
+			// public static void ShowArray(double[] array)
+			// {
+			// 	Console.Write($"New array: [{array[0]}");
+
+			// 	for (int i = 1; i < array.Length; i++)
+
+			// 		Console.Write($" {array[i]}");
+			// 	Console.Write("]");
+			// }
+
+			// public static double GetDiffOfNumbers(double[] array)
+			// {
+			// 	double min = 0;
+			// 	double max = 0;
+			// 	for (int i = 0; i < array.Length; i++)
+			// 	{
+			// 		if (array[i] > max) max = array[i];
+			// 		else if (array[i] < min) min = array[i];
+			// 	}
+
+			// 	return max - min;
+			// }
+
 		}
 	}
-}
