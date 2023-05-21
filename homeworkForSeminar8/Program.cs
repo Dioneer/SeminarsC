@@ -36,25 +36,47 @@ namespace Homework8
 			// ShowLine(result);
 			// Задача2==========================================
 			// Задача3==========================================
-			// Задайте две матрицы. Напишите программу, которая будет находить произведение двух матриц.
+			// Задайте две матрицы.Напишите программу, которая будет находить произведение двух матриц.
+			// System.Console.WriteLine("Please, enter the number of rows for 1 arrays");
+			// int row1 = Convert.ToInt32(Console.ReadLine());
+			// System.Console.WriteLine("Please, enter the number of columns for 1 arrays");
+			// int column1 = Convert.ToInt32(Console.ReadLine());
 			// System.Console.WriteLine("Please, enter the number of rows for 2 arrays");
-			// int row = Convert.ToInt32(Console.ReadLine());
+			// int row2 = Convert.ToInt32(Console.ReadLine());
 			// System.Console.WriteLine("Please, enter the number of columns for 2 arrays");
-			// int column = Convert.ToInt32(Console.ReadLine());
+			// int column2 = Convert.ToInt32(Console.ReadLine());
 			// System.Console.WriteLine("Please, enter min value: ");
 			// int min = Convert.ToInt32(Console.ReadLine());
 			// System.Console.WriteLine("Please, enter max value: ");
 			// int max = Convert.ToInt32(Console.ReadLine());
-			// int[,] array1 = CreateArray(row, column, min, max);
-			// int[,] array2 = CreateArray(row, column, min, max);
+			// int[,] array1 = CreateArray(row1, column1, min, max);
+			// int[,] array2 = CreateArray(row2, column2, min, max);
 			// ShowArray(array1);
 			// ShowArray(array2);
 			// int[,] result = multiplication(array1, array2);
 			// ShowArray(result);
 			// Задача3==========================================
 			// Задача4==========================================
-			// Сформируйте трёхмерный массив из неповторяющихся двузначных чисел. Напишите программу, которая будет построчно выводить массив, добавляя индексы каждого элемента.
+			// Сформируйте трёхмерный массив из неповторяющихся двузначных чисел.Напишите программу, которая будет построчно выводить массив, добавляя индексы каждого элемента.
+			// System.Console.WriteLine("Please, enter the number of rows for array");
+			// int row = Convert.ToInt32(Console.ReadLine());
+			// System.Console.WriteLine("Please, enter the number of columns for array");
+			// int column = Convert.ToInt32(Console.ReadLine());
+			// System.Console.WriteLine("Please, enter the number of zZone:");
+			// int zZone = Convert.ToInt32(Console.ReadLine());
+			// int[,,] array = CreateArray(row, column, zZone);
+			// ShowArray(array);
 			// Задача4==========================================
+			// Задача5==========================================
+			// Напишите программу, которая заполнит спирально массив 4 на 4. 
+			// Задача5==========================================
+			System.Console.WriteLine("Please, enter the number of rows for the array");
+			int row = Convert.ToInt32(Console.ReadLine());
+			System.Console.WriteLine("Please, enter the number of columns for the array");
+			int column = Convert.ToInt32(Console.ReadLine());
+			int[,] array = CreateArray(row, column);
+			ShowArray(array);
+			// Задача5==========================================
 		}
 		// Задача1==========================================
 		// public static int[,] CreateArray(int rows, int columns, int min, int max)
@@ -200,10 +222,117 @@ namespace Homework8
 		// 			}
 		// 		}
 		// 	}
-		// 	else System.Console.WriteLine("Sorry arrays should be square or the number of columns of the matrix A is equal to the number of rows of the matrix B");
+		// 	else { System.Console.WriteLine("Sorry arrays should be square or the number of columns of the matrix A is equal to the number of rows of the matrix B"); }
 		// 	return newArr;
 		// }
 		// Задача3==========================================
 		// Задача4==========================================
+		// public static int[,,] CreateArray(int rows, int columns, int zZone)
+		// {
+		// 	int length = rows * columns * zZone;
+		// 	int resultCoof = 0;
+		// 	bool flag = false;
+		// 	int[,,] array = new int[rows, columns, zZone];
+		// 	int[] arrForCheckReapit = new int[length];
+
+		// 	// формирую простой массив уникальных значений. По ходу, вся сложность в этом. Ушло 3 часа, что б догадаться и вспомнить про do while
+		// 	for (int i = 0; i < length; i++)
+		// 	{
+		// 		do
+		// 		{
+		// 			arrForCheckReapit[i] = new Random().Next(10, 100);
+		// 			flag = true;
+
+		// 			for (int j = 0; j < i; j++)
+		// 				if (arrForCheckReapit[i] == arrForCheckReapit[j])
+		// 				{
+		// 					flag = false;
+		// 					break;
+		// 				}
+		// 		} while (!flag);
+		// 	}
+
+
+		// 	// присваение значений простого массива в трехмерный
+		// 	for (int i = 0; i < array.GetLength(0); i++)
+		// 	{
+		// 		for (int j = 0; j < array.GetLength(1); j++)
+		// 		{
+		// 			for (int z = 0; z < array.GetLength(2); z++)
+		// 			{
+		// 				array[i, j, z] = arrForCheckReapit[resultCoof];
+		// 				resultCoof++;
+		// 			}
+		// 		}
+		// 	}
+
+		// 	return array;
+		// }
+		// public static void ShowArray(int[,,] array)
+		// {
+		// 	for (int i = 0; i < array.GetLength(0); i++)
+		// 	{
+		// 		for (int j = 0; j < array.GetLength(1); j++)
+		// 		{
+		// 			for (int z = 0; z < array.GetLength(2); z++)
+		// 			{
+		// 				System.Console.Write($"{array[i, j, z]}({i},{j},{z}) ");
+		// 			}
+		// 			System.Console.WriteLine();
+		// 		}
+		// 	}
+		// 	System.Console.WriteLine();
+		// }
+		// Задача4==========================================
+		// // Задача5==========================================
+		// public static void ShowArray(int[,] array)
+		// {
+		// 	for (int i = 0; i < array.GetLength(0); i++)
+		// 	{
+		// 		for (int j = 0; j < array.GetLength(1); j++)
+		// 		{
+		// 			System.Console.Write(array[i, j] + " ");
+		// 		}
+		// 		System.Console.WriteLine();
+		// 	}
+		// 	System.Console.WriteLine();
+		// }
+		// public static int[,] CreateArray(int rows, int columns)
+		// {
+		// 	int[,] array = new int[rows, columns];
+		// 	int bottom = rows - 1;
+		// 	int right = columns - 1;
+		// 	int numbers = 1;
+		// 	int top = 0;
+		// 	int mainlength = columns / 2;
+		// 	int index1 = 1;
+
+		// 	while (mainlength >= 0)
+		// 	{
+		// 		for (int j = top; j <= right; j++)
+		// 		{
+		// 			array[top, j] = numbers++;
+		// 		}
+		// 		for (int j = index1; j < rows - top; j++)
+		// 		{
+		// 			array[j, right] = numbers++;
+		// 		}
+		// 		for (int j = right - 1; j > top; j--)
+		// 		{
+		// 			array[bottom, j] = numbers++;
+		// 		}
+		// 		for (int j = bottom; j > top; j--)
+		// 		{
+		// 			array[j, top] = numbers++;
+		// 		}
+		// 		top++;
+		// 		right--;
+		// 		bottom--;
+		// 		mainlength--;
+		// 		index1++;
+		// 	}
+		// 	return array;
 	}
+	// Задача5==========================================
+}
 }
