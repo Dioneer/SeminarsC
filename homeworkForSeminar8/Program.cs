@@ -307,7 +307,7 @@ namespace Homework8
 		// 	int mainlength = columns / 2;
 		// 	int index1 = 1;
 
-		// 	while (mainlength >= 0)
+		// 	while (mainlength > 0)
 		// 	{
 		// 		for (int j = top; j <= right; j++)
 		// 		{
@@ -323,6 +323,7 @@ namespace Homework8
 		// 		}
 		// 		for (int j = bottom; j > top; j--)
 		// 		{
+
 		// 			array[j, top] = numbers++;
 		// 		}
 		// 		top++;
@@ -332,7 +333,7 @@ namespace Homework8
 		// 		index1++;
 		// 	}
 		// 	return array;
+		// }
+		// Задача5==========================================
 	}
-	// Задача5==========================================
-}
 }
