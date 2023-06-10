@@ -1,0 +1,15 @@
+C:\Users\fox\Desktop\4\SeminarsC#\honeworkForSeminar4\obj\Debug\net6.0\honeworkForSeminar4.csproj.AssemblyReference.cache
+C:\Users\fox\Desktop\4\SeminarsC#\honeworkForSeminar4\obj\Debug\net6.0\honeworkForSeminar4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fox\Desktop\4\SeminarsC#\honeworkForSeminar4\obj\Debug\net6.0\honeworkForSeminar4.AssemblyInfoInputs.cache
+C:\Users\fox\Desktop\4\SeminarsC#\honeworkForSeminar4\obj\Debug\net6.0\honeworkForSeminar4.AssemblyInfo.cs
+C:\Users\fox\Desktop\4\SeminarsC#\honeworkForSeminar4\obj\Debug\net6.0\honeworkForSeminar4.csproj.CoreCompileInputs.cache
+C:\Users\fox\Desktop\4\SeminarsC#\honeworkForSeminar4\bin\Debug\net6.0\honeworkForSeminar4.exe
+C:\Users\fox\Desktop\4\SeminarsC#\honeworkForSeminar4\bin\Debug\net6.0\honeworkForSeminar4.deps.json
+C:\Users\fox\Desktop\4\SeminarsC#\honeworkForSeminar4\bin\Debug\net6.0\honeworkForSeminar4.runtimeconfig.json
+C:\Users\fox\Desktop\4\SeminarsC#\honeworkForSeminar4\bin\Debug\net6.0\honeworkForSeminar4.dll
+C:\Users\fox\Desktop\4\SeminarsC#\honeworkForSeminar4\bin\Debug\net6.0\honeworkForSeminar4.pdb
+C:\Users\fox\Desktop\4\SeminarsC#\honeworkForSeminar4\obj\Debug\net6.0\honeworkForSeminar4.dll
+C:\Users\fox\Desktop\4\SeminarsC#\honeworkForSeminar4\obj\Debug\net6.0\refint\honeworkForSeminar4.dll
+C:\Users\fox\Desktop\4\SeminarsC#\honeworkForSeminar4\obj\Debug\net6.0\honeworkForSeminar4.pdb
+C:\Users\fox\Desktop\4\SeminarsC#\honeworkForSeminar4\obj\Debug\net6.0\honeworkForSeminar4.genruntimeconfig.cache
+C:\Users\fox\Desktop\4\SeminarsC#\honeworkForSeminar4\obj\Debug\net6.0\ref\honeworkForSeminar4.dll

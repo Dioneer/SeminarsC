@@ -1,0 +1,15 @@
+D:\4\SeminarsC#\homeworkForSeminar8\obj\Debug\net6.0\homeworkForSeminar8.csproj.AssemblyReference.cache
+D:\4\SeminarsC#\homeworkForSeminar8\obj\Debug\net6.0\homeworkForSeminar8.GeneratedMSBuildEditorConfig.editorconfig
+D:\4\SeminarsC#\homeworkForSeminar8\obj\Debug\net6.0\homeworkForSeminar8.AssemblyInfoInputs.cache
+D:\4\SeminarsC#\homeworkForSeminar8\obj\Debug\net6.0\homeworkForSeminar8.AssemblyInfo.cs
+D:\4\SeminarsC#\homeworkForSeminar8\obj\Debug\net6.0\homeworkForSeminar8.csproj.CoreCompileInputs.cache
+D:\4\SeminarsC#\homeworkForSeminar8\bin\Debug\net6.0\homeworkForSeminar8.exe
+D:\4\SeminarsC#\homeworkForSeminar8\bin\Debug\net6.0\homeworkForSeminar8.deps.json
+D:\4\SeminarsC#\homeworkForSeminar8\bin\Debug\net6.0\homeworkForSeminar8.runtimeconfig.json
+D:\4\SeminarsC#\homeworkForSeminar8\bin\Debug\net6.0\homeworkForSeminar8.dll
+D:\4\SeminarsC#\homeworkForSeminar8\bin\Debug\net6.0\homeworkForSeminar8.pdb
+D:\4\SeminarsC#\homeworkForSeminar8\obj\Debug\net6.0\homeworkForSeminar8.dll
+D:\4\SeminarsC#\homeworkForSeminar8\obj\Debug\net6.0\refint\homeworkForSeminar8.dll
+D:\4\SeminarsC#\homeworkForSeminar8\obj\Debug\net6.0\homeworkForSeminar8.pdb
+D:\4\SeminarsC#\homeworkForSeminar8\obj\Debug\net6.0\homeworkForSeminar8.genruntimeconfig.cache
+D:\4\SeminarsC#\homeworkForSeminar8\obj\Debug\net6.0\ref\homeworkForSeminar8.dll

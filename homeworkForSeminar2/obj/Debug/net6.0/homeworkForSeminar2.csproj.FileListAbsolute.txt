@@ -1,0 +1,15 @@
+C:\Users\fox\Desktop\4\SeminarsC#\homeworkForSeminar2\obj\Debug\net6.0\homeworkForSeminar2.csproj.AssemblyReference.cache
+C:\Users\fox\Desktop\4\SeminarsC#\homeworkForSeminar2\obj\Debug\net6.0\homeworkForSeminar2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fox\Desktop\4\SeminarsC#\homeworkForSeminar2\obj\Debug\net6.0\homeworkForSeminar2.AssemblyInfoInputs.cache
+C:\Users\fox\Desktop\4\SeminarsC#\homeworkForSeminar2\obj\Debug\net6.0\homeworkForSeminar2.AssemblyInfo.cs
+C:\Users\fox\Desktop\4\SeminarsC#\homeworkForSeminar2\obj\Debug\net6.0\homeworkForSeminar2.csproj.CoreCompileInputs.cache
+C:\Users\fox\Desktop\4\SeminarsC#\homeworkForSeminar2\bin\Debug\net6.0\homeworkForSeminar2.exe
+C:\Users\fox\Desktop\4\SeminarsC#\homeworkForSeminar2\bin\Debug\net6.0\homeworkForSeminar2.deps.json
+C:\Users\fox\Desktop\4\SeminarsC#\homeworkForSeminar2\bin\Debug\net6.0\homeworkForSeminar2.runtimeconfig.json
+C:\Users\fox\Desktop\4\SeminarsC#\homeworkForSeminar2\bin\Debug\net6.0\homeworkForSeminar2.dll
+C:\Users\fox\Desktop\4\SeminarsC#\homeworkForSeminar2\bin\Debug\net6.0\homeworkForSeminar2.pdb
+C:\Users\fox\Desktop\4\SeminarsC#\homeworkForSeminar2\obj\Debug\net6.0\homeworkForSeminar2.dll
+C:\Users\fox\Desktop\4\SeminarsC#\homeworkForSeminar2\obj\Debug\net6.0\refint\homeworkForSeminar2.dll
+C:\Users\fox\Desktop\4\SeminarsC#\homeworkForSeminar2\obj\Debug\net6.0\homeworkForSeminar2.pdb
+C:\Users\fox\Desktop\4\SeminarsC#\homeworkForSeminar2\obj\Debug\net6.0\homeworkForSeminar2.genruntimeconfig.cache
+C:\Users\fox\Desktop\4\SeminarsC#\homeworkForSeminar2\obj\Debug\net6.0\ref\homeworkForSeminar2.dll

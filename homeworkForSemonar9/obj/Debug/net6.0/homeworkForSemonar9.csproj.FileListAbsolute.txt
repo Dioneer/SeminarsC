@@ -1,0 +1,15 @@
+D:\backup\4\SeminarsC#\homeworkForSemonar9\obj\Debug\net6.0\homeworkForSemonar9.csproj.AssemblyReference.cache
+D:\backup\4\SeminarsC#\homeworkForSemonar9\obj\Debug\net6.0\homeworkForSemonar9.GeneratedMSBuildEditorConfig.editorconfig
+D:\backup\4\SeminarsC#\homeworkForSemonar9\obj\Debug\net6.0\homeworkForSemonar9.AssemblyInfoInputs.cache
+D:\backup\4\SeminarsC#\homeworkForSemonar9\obj\Debug\net6.0\homeworkForSemonar9.AssemblyInfo.cs
+D:\backup\4\SeminarsC#\homeworkForSemonar9\obj\Debug\net6.0\homeworkForSemonar9.csproj.CoreCompileInputs.cache
+D:\backup\4\SeminarsC#\homeworkForSemonar9\bin\Debug\net6.0\homeworkForSemonar9.exe
+D:\backup\4\SeminarsC#\homeworkForSemonar9\bin\Debug\net6.0\homeworkForSemonar9.deps.json
+D:\backup\4\SeminarsC#\homeworkForSemonar9\bin\Debug\net6.0\homeworkForSemonar9.runtimeconfig.json
+D:\backup\4\SeminarsC#\homeworkForSemonar9\bin\Debug\net6.0\homeworkForSemonar9.dll
+D:\backup\4\SeminarsC#\homeworkForSemonar9\bin\Debug\net6.0\homeworkForSemonar9.pdb
+D:\backup\4\SeminarsC#\homeworkForSemonar9\obj\Debug\net6.0\homeworkForSemonar9.dll
+D:\backup\4\SeminarsC#\homeworkForSemonar9\obj\Debug\net6.0\refint\homeworkForSemonar9.dll
+D:\backup\4\SeminarsC#\homeworkForSemonar9\obj\Debug\net6.0\homeworkForSemonar9.pdb
+D:\backup\4\SeminarsC#\homeworkForSemonar9\obj\Debug\net6.0\homeworkForSemonar9.genruntimeconfig.cache
+D:\backup\4\SeminarsC#\homeworkForSemonar9\obj\Debug\net6.0\ref\homeworkForSemonar9.dll
