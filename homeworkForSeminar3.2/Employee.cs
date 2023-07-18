@@ -1,7 +1,7 @@
 using System;
 namespace Homework2
 {
-	class Employee
+	public class Employee
 	{
 		private string name;
 		private int age;
@@ -14,7 +14,7 @@ namespace Homework2
 		{
 			this.name = name;
 		}
-		public int detAge()
+		public int getAge()
 		{
 			return age;
 		}
@@ -27,5 +27,26 @@ namespace Homework2
 			this.name = name;
 			this.age = age;
 		}
+		public override bool Equals(object obj)
+		{
+			if (this == obj)
+				return true;
+			if (obj is Employee)
+			{
+				Employee employee = (Employee)obj;
+				if (employee.name.Equals(name) && employee.age == age)
+				{
+					return true;
+				}
+			}
+			return false;
+		}
+		public String toString()
+		{
+			return String.format("%s-%d", name, age);
+		}
+
+
+
 	}
 }

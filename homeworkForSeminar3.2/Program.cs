@@ -6,7 +6,8 @@ namespace Homework2
 	{
 		static void Main()
 		{
-			LinkedList node = new LinkedList();
+			LinkedList<Employee> LinkedLis1 = new LinkedList<Employee>();
+			LinkedLis1.AddFirst(new Employee("Misha", 22));
 		}
 	}
 }
