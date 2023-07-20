@@ -1,88 +1,137 @@
 using System;
 namespace Homework2
 {
+	/// <summary>
+	/// Однонаправленный связный список
+	/// </summary>
 	public class LinkedList<T>
 	{
-		public Node head;
+
+		/// <summary>
+		/// Головной узел
+		/// </summary>
+		private Node head;
+
+		public Node Head => head;
+
+		/// <summary>
+		/// Узел
+		/// </summary>
 		public class Node
 		{
-			public Node Next;
-			public T Value;
-		}
-		public void AddFirst(T value)
-		{
-			Node node = new Node();
-			node.Value = value;
-			if (head != null)
+			/// <summary>
+			/// Значение
+			/// </summary>
+			public T Value { get; set; }
+
+			/// <summary>
+			/// Указатель на следующий элемент
+			/// </summary>
+			public Node Next { get; set; }
+
+			public Node(T value)
 			{
-				node.Next = head;
+				Value = value;
 			}
-			head = node;
-		}
-		public void DeleteFirst(T value)
-		{
-			if (head != null)
-			{
-				head = head.Next;
-			}
-		}
-		public Node contains(T value)
-		{
-			Node node = head;
-			while (node != null)
-			{
-				if (node.Value.Equals(value))
-					return node;
-				node = node.Next;
-			}
-			return null;
 		}
 
-		public void Sort(Comparer<T> comparer)
+		/// <summary>
+		/// Добавить новый элемент в начало связного списка
+		/// </summary>
+		/// <param name="value"></param>
+		public void AddFirst(T value)
+		{
+			Node node = new Node(value);
+			if (head != null)
+				node.Next = head;
+			head = node;
+		}
+
+		/// <summary>
+		/// Удалить первый элемент связного списка
+		/// </summary>
+		public void RemoveFirst()
+		{
+			if (head != null)
+				head = head.Next;
+		}
+
+		/// <summary>
+		/// Поиск элемента в связном списке
+		/// </summary>
+		/// <param name="value"></param>
+		/// <param name="equalityComparer"></param>
+		/// <returns></returns>
+		public bool Contains(T value, IEqualityComparer<T>? equalityComparer = null)
 		{
 			Node node = head;
 			while (node != null)
 			{
-				Node minvalueNode = node;
+				if (equalityComparer?.Equals(node.Value, value) == true || node.Value.Equals(value))
+				{
+					return true;
+				}
+				node = node.Next;
+			}
+			return false;
+		}
+
+		/// <summary>
+		/// Сортировка элементов (выбором)
+		/// </summary>
+		public void DirectSort(IComparer<T> comparer)
+		{
+			Node node = head;
+			while (node != null)
+			{
+				Node minValueNode = node;
 				Node node2 = node.Next;
 				while (node2 != null)
 				{
-					if (comparer.Compare(minvalueNode.Value, node2.Value))
+					if (comparer.Compare(minValueNode.Value, node2.Value) > 0)
 					{
-						minvalueNode = node2;
+						minValueNode = node2;
 					}
-					node2 = node.Next;
+					node2 = node2.Next;
 				}
 
-				if (minvalueNode != node)
+				if (node != minValueNode)
 				{
 					T buf = node.Value;
-					node.Value = minvalueNode.Value;
-					minvalueNode.Value = buf;
+					node.Value = minValueNode.Value;
+					minValueNode.Value = buf;
 				}
-				node = node.Next;
 
+				node = node.Next;
 			}
 		}
-		public void addLast(T value)
+
+		/// <summary>
+		/// Добавить элемент в конец связного списка
+		/// </summary>
+		/// <param name="value"></param>
+		public void AddLast(T value)
 		{
-			Node node = new Node();
-			node.Value = value;
+			Node node = new Node(value);
 			if (head == null)
 			{
 				head = node;
 			}
 			else
 			{
-				Node LastNode = head;
-				while (LastNode.Next != null)
+				Node last = head;
+				while (last.Next != null)
 				{
-					LastNode = LastNode.Next;
+					last = last.Next;
 				}
-				LastNode.Next = node;
+				last.Next = node;
 			}
 		}
-		public void removeLast(T value)
+
+		/// <summary>
+		/// Удалить последний элемент связного списка
+		/// </summary>
+		public void RemoveLast()
 		{
 			if (head == null)
 				return;
@@ -91,45 +140,35 @@ namespace Homework2
 			{
 				if (node.Next.Next == null)
 				{
-					node = node.Next;
+					node.Next = null;
 					return;
 				}
 				node = node.Next;
 			}
 			head = null;
 		}
-		public String toString()
+
+
+		/// <summary>
+		/// TODO: Домашнее задание
+		/// </summary>
+		public void Reverse()
 		{
-			StringBuilder stringBuilder = new StringBuilder();
-			Node node = new Node();
+			Node node = head;
+			Node temp;
+			Node prevNode = null;
+
 			while (node != null)
 			{
-				stringBuilder.append(node.Value);
-				stringBuilder.append('\n');
-				node = node.Next;
+				temp = node.Next;
+				node.Next = prevNode;
+				prevNode = node;
+				node = temp;
 			}
-			return super.toString();
+			head = prevNode;
 		}
+
 
 		// ================================================================================
-		public void Revert()
-		{
-			if (head != null && head.Next != null)
-				Revert(head.Next, head);
-		}
-		private void Revert(Node currentNode, Node previous)
-		{
-			if (currentNode.Next == null)
-			{
-				head = currentNode;
-			}
-			else
-			{
-				Revert(currentNode.Next, currentNode);
-			}
-
-			currentNode.Next = previous;
-			previous.Next = null;
-		}
 	}
 }
